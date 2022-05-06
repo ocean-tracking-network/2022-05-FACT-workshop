@@ -1,5 +1,5 @@
 ---
-title: Background
+title: Background OTN + Workshop Outline
 teaching: 5
 exercises: 0
 questions:
