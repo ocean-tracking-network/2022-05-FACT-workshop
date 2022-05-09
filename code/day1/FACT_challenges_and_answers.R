@@ -63,8 +63,8 @@ heights_above_67 <- heights_no_na[heights_no_na > 67]
 length(heights_above_67)
 
 # Challenge 5 ----
-#1. What is is the class of the station column in proj58_matched_2016?
-#2. How many rows and columns are in the proj58_matched_2016 dataset?
+#1. What is is the class of the station column in tqcs_matched_2010?
+#2. How many rows and columns are in the tqcs_matched_2010 dataset?
 
 #Answer 5: The column is a character, and there are 1,737,597 rows with 36 columns
 str(tqcs_matched_2010)
@@ -75,7 +75,7 @@ glimpse(tqcs_matched_2010)
 
 # Challenge 6 ----
 #1. Find the max lat and max longitude for animal "TQCS-1049258-2008-02-14".
-#2. Find the min lat/long of each animal for detections occurring in July..
+#2. Find the min lat/long of each animal for detections occurring in July.
 
 #Answer 6:
 #1. 
