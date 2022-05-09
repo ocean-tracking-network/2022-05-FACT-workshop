@@ -1,6 +1,6 @@
 # Intro to R for Telemetry Summaries ---------------------------------
-# GLATOS workshop 2021-03-30
-# Instructors: Naomi Tress and  Bruce Delo
+# FACT workshop 2022-05
+# Instructors: Naomi Tress and  Jon Pye
 
 #install.packages("readxl")
 #install.packages("viridis")
@@ -13,7 +13,7 @@ library(tidyverse) # really neat collection of packages! https://www.tidyverse.o
 
 #make sure to read all "mask" messages
 
-setwd('C:/Users/tress_n/2021-04-13-act-workshop/data') #set folder you're going to work in
+setwd('C:/Users/path/to/data') #set folder you're going to work in
 getwd() #check working directory
 
 #Everyone check to make sure all the files in the /data folder are UNZIPPED
@@ -22,10 +22,10 @@ getwd() #check working directory
 
 3 + 5 #maths! including - , *, /
 
-weight_kg <- 55 #assignment operator! for objects/variables. shortcut: alt + - 
+weight_kg <- 55 # assignment operator! for objects/variables. shortcut: alt + - 
 weight_kg
 
-weight_lb <- 2.2 * weight_kg #can assign output to an object. can use objects to do calculations
+weight_lb <- 2.2 * weight_kg # can assign output to an object. can use objects to do calculations
 
 # Challenge 1:
 # if we change the value of weight_kg to be 100, does the value of weight_lb also change automatically?
@@ -81,6 +81,9 @@ animals[2] #square brackets = indexing. selects the 2nd value in your vector
 weight_g > 50 #conditional indexing: selects based on criteria
 weight_g[weight_g <=30 | weight_g == 55] #many new operators here!  
 #<= less than or equal to, | "or", == equal to
+# Also available are >=, greater than or equal to; 
+# < and > for less than or greater than (no equals); 
+# and & for "and". 
 weight_g[weight_g >= 30 & weight_g == 21] #  >=  greater than or equal to, & "and"
 # this particular example give 0 results - why?
 
