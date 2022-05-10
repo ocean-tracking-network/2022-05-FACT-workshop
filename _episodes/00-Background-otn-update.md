@@ -20,14 +20,14 @@ Please contact **OTNDC@DAL.CA** if you are interested in connecting with your re
 
 This set of workshop material is directed at researchers who need to create reports based on their acoustic telemetry records. The first few lessons are meant to be self-study, and ensure that the necessary introductory R coding skills are known prior to the workshop.
 
-If you'd like to refresh your R coding skills outside of this workshop curriculum, we recommend [Data Analysis and Visualization in R for Ecologists](https://datacarpentry.org/R-ecology-lesson/ "Website for R ecology lesson") as a good starting point. Much of this content is included in the first few background lessons of this workshop.
-
 ##  Getting Started
 
 Please follow the instructions in the **"Setup"** tab along the top menu to install all required software, packages and data files. If you have questions or are running into errors please reach out to **OTNDC@DAL.CA** for support.
 
 ## Pre-workshop content
 
-If you do not have any experience with R coding, or want to refresh your skills, we highly recommend working through the first two lessons **TODO LINK LESSONS**[]
+If you do not have any experience with R coding, or want to refresh your skills, we highly recommend working through the first two lessons, [starting here.](https://ocean-tracking-network.github.io/2022-05-FACT-workshop/01.1-Background-intro-to-r/index.html)
+
+If you'd like to refresh your R coding skills outside of this workshop curriculum, we recommend [Data Analysis and Visualization in R for Ecologists](https://datacarpentry.org/R-ecology-lesson/ "Website for R ecology lesson") as a good starting point. Much of this content is included in the first few background lessons of this workshop.
 
 There are many useful packages not covered in this workshop, some of these have been taught in other workshops and the lessons are available upon request.

@@ -13,15 +13,20 @@ Now that we have an idea of what an exploratory workflow might look like with Ti
 
 We are going to use OTN-style detection extracts for this lesson. If you're unfamiliar with detection extracts formats from OTN-style database nodes, see the documentation [here](https://members.oceantrack.org/data/otn-detection-extract-documentation-matched-to-animals). 
 
-For the FACT Network you will receive Detection Extracts which include (1) Matched to Animals YYYY, (2) Detections Mapped to Other Trackers - Extended YYYY (also called Qualified Extended) and (3) Unqualified Detections YYYY. In each case, the YYYY in the filename indicates the single year of data contained in the file and "extended" refers to the extra column provided to FACT Network members: "species detected". The types of detection extracts you receive will differ depending on the type of project you have regitered with the Network. If you have both an Array project and a Tag project you will likely need both sets of Detection Extracts.
+For the FACT Network you will receive Detection Extracts which include 
+1. Matched to Animals YYYY, 
+1. Detections Mapped to Other Trackers - Extended YYYY (also called Qualified Extended) and 
+1. Unqualified Detections YYYY. 
+
+In each case, the YYYY in the filename indicates the single year of data contained in the file and "extended" refers to the extra column provided to FACT Network members: "species detected". The types of detection extracts you receive will differ depending on the type of project you have regitered with the Network. If you have both an Array project and a Tag project you will likely need both sets of Detection Extracts.
 
 To illustrate the many meaningful summary reports which can be created use detection extracts, we will import an example of Matched and Qualified extracts.
 
 First, we will comfirm we have our Tag Matches stored in a dataframe.
 ~~~
-View(tqcs_matched_10_11) #already have our Tag matches, from a previous lesson.
+View(tqcs_matched_10_11) # might already have our Tag matches, from the background lessons.
 
-# if you do not have the variable created from a previous lesson, you can use the following code to re-create it:
+# if you do not have the variable created from the background lessons, you can use the following code to re-create it:
 
 tqcs_matched_2010 <- read_csv("tqcs_matched_detections_2010.zip", guess_max = 117172) #Import 2010 detections
 tqcs_matched_2011 <- read_csv("tqcs_matched_detections_2011.zip", guess_max = 41880) #Import 2011 detections
@@ -56,6 +61,6 @@ View(teq_deploy)
 tqcs_tag <- read.csv("TQCS_metadata_tagging.csv") 
 View(tqcs_tag)
 
-#remember: we learned how to switch timezone of datetime columns above, if that is something you need to do with your dataset!!
+#remember: we learned how to switch timezone of datetime columns in the background lesson about [dataframes and more](https://ocean-tracking-network.github.io/2022-05-FACT-workshop/01.2-Background-r-dataframes/index.html), if that is something you need to do with your dataset!!
 ~~~
 {: .language-r}
