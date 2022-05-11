@@ -64,7 +64,7 @@ teq_map
 
 #save your receiver map into your working directory
 
-ggsave(plot = teq_map, file = "code/day1/teq_map.tiff", units="in", width=15, height=8)
+ggsave(plot = teq_map, file = "teq_map.tiff", units="in", width=15, height=8)
 ~~~
 {: .language-r}
 
@@ -146,11 +146,11 @@ teq_qual_summary <- teq_qual_10_11 %>%
 
 #view our summary table
 
-teq_qual_summary #remember, this is just the first 10,000 rows! We subsetted the dataset upon import!
+view(teq_qual_summary) #remember, this is just the first 10,000 rows! We subsetted the dataset upon import!
 
 #export our summary table
 
-write_csv(teq_qual_summary, "code/day1/teq_detection_summary_June2010_to_Dec2011.csv", col_names = TRUE)
+write_csv(teq_qual_summary, "teq_detection_summary_June2010_to_Dec2011.csv", col_names = TRUE)
 
 ~~~
 {: .language-r}
