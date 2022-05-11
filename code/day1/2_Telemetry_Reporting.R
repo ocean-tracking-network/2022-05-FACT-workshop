@@ -3,24 +3,19 @@
 # Installs and Setup --------
 library(tidyverse)# really neat collection of packages! https://www.tidyverse.org/
 library(lubridate)
-library(readxl)
 library(viridis)
 library(plotly)
 library(ggmap)
-library(dplyr)
-library(ggplot2)
 
 
 setwd('C:/Users/path/to/data') #set folder you're going to work in
 getwd() #check working directory
 
-#Everyone check to make sure all the files in the /data folder are UNZIPPED
-
 # Creating Summary Reports: Importing --------
 
 ## Tag Matches ----
 
-#imports file into R. paste the filepath to the unzipped file here!
+#imports file into R. Paste the file names here!
 
 View(tqcs_matched_10_11) # might already have our Tag matches, from the background lessons.
 
@@ -110,6 +105,7 @@ ggsave(plot = teq_map, file = "teq_map.tiff", units="in", width=15, height=8)
 
 ## Array Map - Interactive ----
 library(plotly)
+library(dplyr) #need to ensure plotly "mutate" doesn't mask dplyr
 
 #set your basemap
 
@@ -471,7 +467,5 @@ movMap <-
   scale_colour_manual(values = c("red", "blue"), name = "Species")+ #
   facet_wrap(~catalognumber)+
   ggtitle("Inferred Animal Paths")
-
-#to size the dots by number of detections you could do something like: size = (log(length(animal)id))?
 
 movMap
