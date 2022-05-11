@@ -7,6 +7,7 @@ library(viridis)
 library(plotly)
 library(ggmap)
 
+
 #Ensure that all the files from setup instructions were UNZIPPED
 
 setwd('C:/Users/path/to/data') #set folder you're going to work in
