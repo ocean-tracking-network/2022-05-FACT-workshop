@@ -16,7 +16,7 @@ library(tidyverse) # really neat collection of packages! https://www.tidyverse.o
 setwd('C:/Users/path/to/data') #set folder you're going to work in
 getwd() #check working directory
 
-#Everyone check to make sure all the files in the /data folder are UNZIPPED
+#Ensure that all the files in the /data folder are UNZIPPED
 
 ## Operators ---------------------------------
 
