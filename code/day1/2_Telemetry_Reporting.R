@@ -7,7 +7,7 @@ library(viridis)
 library(plotly)
 library(ggmap)
 
-#Ensure the downloaded files are unzipped
+#Ensure the downloaded folder was unzipped
 
 setwd('C:/Users/path/to/data') #set folder you're going to work in
 getwd() #check working directory
