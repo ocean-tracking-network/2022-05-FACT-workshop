@@ -50,10 +50,4 @@ OTN has hosted other workshops in the past which contain different code sets tha
 
 Many of our Intro to R workshops are based upon this curriculum from [The Carpentries](https://datacarpentry.org/R-ecology-lesson/).
 
-### Telemetry Reporting Workshops
-
-- OTN MigrMar workshop
-
-- OTN Field Tech workshop
-
-- **TODO** add in carpentries spreadsheets link
+Much of our content about reporting telemetry records to a node is taken from lessons such as [Data Organization in Spreadsheets for Ecologists](https://datacarpentry.org/spreadsheet-ecology-lesson/) also from The Carpentries.
