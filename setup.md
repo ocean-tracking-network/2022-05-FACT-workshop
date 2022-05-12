@@ -9,7 +9,7 @@ You will requre
 1. all the listed R packages 
 1. the dataset and code. Instructions for all these are below.
 
-If you are an R beginner, we **strongly** recommend following along with lessons 2 through 4 (background lessons) before this workshop begins. You can use the setup instructions below, then begin working through the curriculum here [https://ocean-tracking-network.github.io/2022-05-FACT-workshop/](https://ocean-tracking-network.github.io/2022-05-FACT-workshop/). If you encounter any errors or questions you may reach out to OTNDC@DAL.CA for assistance. These background lessons will be a great resource to ensure you can follow along the "Telemetry Report Creation" steps.
+If you are an R beginner, we **strongly** recommend following along with lessons 2 through 4 (background lessons) before this workshop begins. You can use the setup instructions below, then begin working through the curriculum [here](https://ocean-tracking-network.github.io/2022-05-FACT-workshop/01.1-Background-intro-to-r/index.html). If you encounter any errors or questions you may reach out to OTNDC@DAL.CA for assistance. These background lessons will be a great resource to ensure you can follow along the "Telemetry Report Creation" steps.
 
 
 ### Please see the attached document for program instructions: - [Program Install Instructions.docx](/Resources/install_instructions.docx)
