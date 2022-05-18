@@ -40,7 +40,6 @@ tqcs_matched_10_11_full <- tqcs_matched_10_11_full %>% distinct() # Use distinct
 tqcs_matched_10_11 <- tqcs_matched_10_11_full %>% slice(1:100000) # subset our example data to help this workshop run smoother!
 
 ~~~
-
 {: .language-r}
 
 Next, we will load in and join our Array matches.
@@ -54,7 +53,6 @@ teq_qual_10_11_full <- rbind(teq_qual_2010, teq_qual_2011)
 teq_qual_10_11 <- teq_qual_10_11_full %>% slice(1:100000) #subset our example data for ease of analysis!
 
 ~~~
-
 {: .language-r}
 
 To give meaning to these detections we should import our Instrument Deployment Metadata and Tagging Metadata as well. These are in the standard VEMBU/FACT-style templates which can be found [here](https://secoora.org/fact/projects-species/projects/acoustic-telemetry-resources/).
